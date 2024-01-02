@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(#c1f6f8, #030c2c);
+    background-attachment: fixed;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+}
+
+h1 {
+    color: #030c2c;
+}
+
+.icon {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+.dailyForecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.day-forecast,
+.night-forecast {
+    width: 145px;
+    height: 200px;
+    margin: 20px 0px 10px 0px;
+    align-items: center;
+    border: none;
+}
+
+.day-forecast h6,
+.night-forecast h6 {
+    margin-top: 10px;
+}
+
+.day-forecast img,
+.night-forecast img {
+    width: 75px;
+    height: auto;
+}
+
+.day-forecast span,
+.night-forecast span {
+    height: 75px;
+    width: 130px;
+}
+
+.minMax-temp {
+    width: 300px;
+    border: none;
+    padding: 10px;
+}
+
+.minMax-temp span {
+    font-size: 14px;
+}
